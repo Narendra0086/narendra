@@ -335,5 +335,16 @@
 		</properties>
 		</profile>
 	</profiles>
-
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>CVMP4257-releases</name>
+        <url>http://10.20.126.40:8889/artifactory/adopt</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>CVMP4257-snapshots</name>
+        <url>http://10.20.126.40:8889/artifactory/adopt</url>
+    </snapshotRepository>
+</distributionManagement>
 </project>
